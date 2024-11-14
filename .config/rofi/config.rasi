@@ -1,0 +1,15 @@
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{icon} {name}";
+  font: "ZedMono Nerd Font Medium 18";
+  modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "Zed Nerd Font";
+}
+
+@theme "/dev/null"
+@import "../../.cache/wal/colors-rofi-light.rasi"
+
+
+

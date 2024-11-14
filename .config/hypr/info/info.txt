@@ -1,0 +1,3 @@
+hyprpicker is a util that can be used to get colors from the screen
+hyprpaper is the wallpaper engine being usd to set the wallpaper, config is done in hyprpaper.conf
+hypridle is a util that can deterime what to do if you are away from the keyboard and how the computer should respond

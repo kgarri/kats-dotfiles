@@ -10,7 +10,6 @@ fi
 
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
-
 # Load starship theme
 # line 1: `starship` binary as command, from github release
 # line 2: starship setup at clone(create init.zsh, completion)
@@ -55,6 +54,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 #keybindings
 bindkey '^f' autosuggest-accept
 
+alias rider='/opt/JetBrains\ Rider-*/bin/rider.sh'
 alias zip ="/usr/bin/zip"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -66,6 +66,9 @@ alias steam=echo"'flatpak run com.valvesoftware.Steam"
 
 #Shell Integrations
 eval "$(fzf --zsh)"
-
+cat ~/.cache/wal/sequences
+source ~/.cache/wal/colors-tty.sh
 # Created by `pipx` on 2024-10-10 19:06:01
 export PATH="$PATH:/home/kat/.local/bin"
+export ISAAC_ROS_WS=/home/kat/workspace/isaac_ros-dev/
+source /opt/ros/iron/setup.bash
